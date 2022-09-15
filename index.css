@@ -6,7 +6,7 @@
 }
 
 .main-nav {
-	background-color: rgba(69, 55, 80, 0.9);
+	background-color: rgba(117, 125, 167, 0.9);
 	backdrop-filter: blur(5px);
 }
 
@@ -15,13 +15,12 @@
 }
 
 .main-nav-link:hover {
-	background-color: #6E5B7B !important;
+	background-color: #8B95C9 !important;
 	border-radius: 20px;
 }
 
 body {
-  background: url(images/rose-petals.svg) no-repeat center center fixed;
-  background-size: cover;
+  background: url(images/background.svg)
 }
 
 .main-text {
@@ -29,9 +28,9 @@ body {
 }
 
 .self-pic	{
-	border: 10px solid #453750;
+	border: 10px solid #8B95C9;
     border-radius: 50%;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 10px #1a181bb5;
 }
 
 #my-logo {
@@ -40,11 +39,12 @@ body {
 }
 
 .jumbotron-home {
-	background-color: #453750;
+	background-color: #8B95C9;
 	padding: 25px;
   border-radius: 85px;
   text-align: center;
   margin-top: 25px;
+  box-shadow: 5px 10px #1a181bb5
 }
 
 .container-landing{
@@ -57,34 +57,35 @@ body {
 }
 .overview {
 	text-align: center;
-  background-color: rgba(69, 55, 80, 0.8);
+  background-color: #1a181bb5;
   border-radius: 20px;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 10px #8B95C9;
   padding: 25px;
 }
 .project-overview {
 	text-align: center;
-	color: #453750;
-	border: 5px solid #E8F8C1;
-	background-color: rgba(232, 248, 193, 1.0);
+	color: #fff;
+	border: 5px solid #8B95C9;
+	background-color: #8B95C9;
 	border-radius: 20px;
   display: inline-block;
+  padding: 0 40px;
 }
 
 .container-about-me {
-	background-color: rgba(249, 181, 172, 0.5);
+	background-color: #1a181bb5;
 	border-radius: 20px;
-	border: 5px solid #453750;
-	box-shadow: 5px 10px #888888;
+	border: 5px solid #8B95C9;
+	box-shadow: 5px 10px #8B95C9;
 	text-align: center;
 }
 
 .text-about-me {
 		padding: 0 40px;
 		text-align: center;
-		color: #453750;
-		border: 5px solid #453750;
-		background-color: rgba(69, 55, 80, 0.5);
+		color: #fff;
+		border: 5px solid #8B95C9;
+		background-color: #8B95C9;
 		border-radius: 20px;
 	  display: inline-block;
 	  margin-bottom: 20px;
@@ -92,13 +93,17 @@ body {
 
 .skills	{
 		text-align: center;
-		color: #453750;
-		border: 5px solid #453750;
-		background-color: rgba(69, 55, 80, 0.5);
+		color: #fff;
+		border: 5px solid #8B95C9;
+		background-color: #8B95C9;
 		border-radius: 20px;
 	  display: inline-block;
 	  padding-left: 50px;
 	  padding-right: 50px;
+}
+
+.project-card {
+	width: 18rem;
 }
 
 
@@ -120,47 +125,47 @@ h4 {
 }
 
 .fa-gitlab.fa-2xl {
-	color: #fc6d27;
+	color: #fff;
 }
 
 .gitlab-progress-bar {
-	background-color: #e2432a;
+	background-color: #8B95C9;
+	width: 80%;
 }
 
 .fa-html5 {
-	color: #f06529;
+	color: #fff;
 }
 
 .html-progress-bar {
-	background-color: #e34c26;
+	background-color: #6976b3;
+	width: 90%;
 }
 
 .fa-css3-alt {
-	color: #2965f1;
+	color: #fff;
 }
 
 .css-progress-bar {
-	background-color: #264de4;
+	background-color: #8B95C9;
+	width: 80%;
 }
 
 .fa-bootstrap {
-	color: #563d7c;
+	color: #fff;
 }
 
 .bootstrap-progress-bar {
-	background-color: #563d7c;
+	background-color: #9fa6c9;
+	width: 70%;
 }
 
-.js-container {
-	width: 28px;
-	background-color: #323330;
-}
 .fa-square-js {
-	color: #f0db4f;
+	color: #fff;
 }
 
 .js-progress-bar {
-	background-color: #f0db4f;
+	width: 0;
 }
 
 .p-about-me {
@@ -168,24 +173,22 @@ h4 {
 }
 
 .container-projects {
-	background-color: #453750;
+	background-color: #1a181bb5;
 	border-radius: 20px;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 10px #8B95C9;
 }
 
 .cards-bg {
 	text-align: center;
-  background-color: rgba(232, 248, 193, 1.0);
+  background-color: #8B95C9;
   border-radius: 20px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-	box-shadow: 5px 10px rgb(188,202,154);
   padding: 25px;
 }
 
 .nav-tabs {
-	background-color: rgba(232, 248, 193, 1.0);
-	box-shadow: 5px 10px rgb(188,202,154);
+	background-color: #8B95C9;
 	justify-content:  space-evenly;
 }
 
@@ -196,43 +199,54 @@ h4 {
 .project-title {
 	padding: 0 40px;
 	text-align: center;
-	color: #453750;
-	border: 5px solid #E8F8C1;
-	background-color: rgba(232, 248, 193, 1.0);
+	color: #fff;
+	border: 5px solid #8B95C9;
+	background-color: #8B95C9;
 	border-radius: 20px;
   display: inline-block;
 }
 
 .bg-contact {
 	text-align: center;
-	background-color: rgba(249, 181, 172, 0.5);
+	background-color: #1a181bb5;
 	border-radius: 20px;
-	border: 5px solid #453750;
-	box-shadow: 5px 10px #888888;
+	border: 5px solid #8B95C9;
+	box-shadow: 5px 10px #8B95C9;
 }
 
 .contact-text {
 		padding: 0 40px;
 		text-align: center;
-		color: #453750;
-		border: 5px solid #453750;
-		background-color: rgba(69, 55, 80, 0.5);
+		color: #fff;
+		border: 5px solid #8B95C9;
+		background-color: #8B95C9;
 		border-radius: 20px;
 	  display: inline-block;
 	  margin-bottom: 20px;
 }
 
 button.active {
-	background-color: rgb(209, 231, 155) !important;
+	background-color: #1a181bb5 !important;
+	color: #fff !important;
+
 }
 
 button.nav-link {
 	background-color: rgba(232, 248, 193, 1.0);
 }
 
-.footer, .btn-submit-modal, .card a {
-	background-color: #453750 !important;
-	font-size: 10px;
+.card a {
+	background-color: #8B95C9 !important;
+}
+
+.footer {
+	background-color: rgba(117, 125, 167, 0.9);
+	backdrop-filter: blur(5px);
+}
+
+.footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 .footer-icons a {
@@ -240,18 +254,82 @@ button.nav-link {
 	text-decoration: none;
 }
 
-a.btn , .btn-submit-modal {
+a.btn , .btn-submit-modal, a.nav-link {
 	color:  #fff;
+	font-size: 16px;
+}
+
+a.nav-link {
+	text-align: center;
 }
 
 a.btn:hover , .btn-submit-modal:hover {
-	color:  #b9a5c1;
+	color: rgba(255,255,255,.75);
 }
 
 .bg-contact-outer {
-	background-color: #453750
+	background-color: #453750;
 }
 
 .btn-submit-modal , .card a{
 	box-shadow: none !important;
+}
+
+.btn-submit-modal {
+	background-color: rgb(120 102 135 / 50%);
+}
+
+.socials {
+	font-size: 50px;
+}
+
+.social-text {
+	padding: 0 40px;
+	text-align: center;
+	color: #453750;
+	border: 5px solid #8B95C9;
+	background-color: #8B95C9;
+	border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-form {
+	background-color: #8B95C9;
+	padding: 10px;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border:0;
+}
+
+.address-text {
+	padding: 0 40px;
+	text-align: center;
+	color: #453750;
+	border: 5px solid #8B95C9;
+	background-color: #8B95C9;
+	border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  color:  #fff;
+}
+
+.spacer {
+	height: 6rem;
 }
