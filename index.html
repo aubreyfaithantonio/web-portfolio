@@ -25,11 +25,11 @@
 	<!-- AOS -->
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
-	<div class="mx-5">
-		<!-- Navbar Start -->
+<nav>
+	<div>
+	<!-- Navbar Start -->
 	<section>
-		<nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark"  style="background-color: #453750 !important;">
+		<nav class="main-nav fixed-top navbar navbar-expand-lg navbar-dark">
 		 	<a class="navbar-brand" href="index.html"><img id="my-logo" src="images/favicon.png" alt="">Aubrey Antonio</a>
 		  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
@@ -50,7 +50,8 @@
 		</nav>
 	</section>
 	<!-- Navbar End -->
-
+</nav>
+<body class="m-5">
 	<!-- Landing Page  -->
 	<section class="container-landing container-fluid p-3 min-vh-100 mt-5">	
 		<div class="container-landing mt-5">
@@ -59,7 +60,7 @@
 					<img class="img-fluid self-pic mt-3 rounded-circle" src="./images/aubrey.jpg" alt="Profile Picture of a Beautiful Person" width="250">
 				</div>
 				<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1000" class="col-lg-8 d-flex justify-content-center">
-					<div class="jumbotron-home jumbotron-fluid col-8 ">
+					<div class="jumbotron-home jumbotron-fluid">
 						<h1 class="main-text display-4">Hi! I'm <u><em>Aubrey</em></u></h1>
 						<h3 class="main-text"></h3>
 							<p class="main-text lead">
@@ -68,17 +69,17 @@
 					</div>
 				</div>
 				<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000" class="overview row-column w-50 col-12 my-5 col-sm-12">
-					<h2 class="project-overview mx-auto"><strong>Project Overview</strong></h2>
+					<h3 class="project-overview mx-auto"><strong>Project Overview</strong></h3>
 					<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
 					  	<div class="carousel-inner">
 					    	<div class="carousel-item active" data-interval="3000">
-					      		<img src="./images/overview2.jpg" class="img-fluid w-50" alt="...">
+					      		<img src="./images/overview2.jpg" class="img-fluid w-75" alt="...">
 					    	</div>
 						    <div class="carousel-item" data-interval="3000">
-						      	<img src="./images/overview1.jpg" class="img-fluid w-50" alt="...">
+						      	<img src="./images/overview1.jpg" class="img-fluid w-75" alt="...">
 						    </div>
 						    <div class="carousel-item" data-interval="3000">
-						      	<img src="./images/overview3.jpg" class="img-fluid w-50" alt="...">
+						      	<img src="./images/overview3.jpg" class="img-fluid w-75" alt="...">
 						    </div>
 					  	</div>
 					  	<button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval" data-slide="prev">
@@ -95,9 +96,9 @@
 		</div>	
 	</section>
 	<!-- Landing Page End -->
-
+	<div id="about"></div>
 	<!-- About Me Section -->
-	<section data-aos="zoom-in" data-aos-duration="1000" id="about" class="container-about-me container-fluid p-3 min-vh-75 mt-3">
+	<section data-aos="zoom-in" data-aos-duration="1000"class="container-about-me container-fluid p-3 min-vh-75 mt-3">
 		<h3 class="text-about-me mx-auto"><strong>About me</strong></h3>
 		<div class="row">
 			<div class="col-lg-8 col-md-6 order-2 order-md-1 mt-sm-4">
@@ -213,8 +214,8 @@
 			  	<!-- Major Projects -->
 			  	<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
   				  	<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-  				  		<div class="p-3 d-md-flex justify-content-around d-flex justify-content-around align-items-center">
-  				  			<div class="card" style="width: 18rem;">
+  				  		<div class="row p-3 d-md-flex justify-content-around d-flex justify-content-around align-items-center">
+  				  			<div class="card my-3" style="width: 18rem;">
   					  		  	<img src="./images/coming-soon.png" class="card-img-top" alt="">
   					  		  	<div class="card-body">
   					  		    	<h5 class="card-title">Coming Soon</h5>
@@ -222,7 +223,7 @@
   					  		    	<a href="#" class="btn">View Project</a>
   					  		  	</div>
   					  		 </div>
-  		  			  		<div class="card" style="width: 18rem;">
+  		  			  		<div class="card my-3" style="width: 18rem;">
   		  			  		  	<img src="./images/coming-soon.png" class="card-img-top" alt="">
   		  			  		  	<div class="card-body">
   		  			  		    	<h5 class="card-title">Coming Soon</h5>
@@ -230,7 +231,7 @@
   		  			  		    	<a href="#" class="btn">View Project</a>
   		  			  		  	</div>
   		  			  		</div>
-  		  			  		<div class="card" style="width: 18rem;">
+  		  			  		<div class="card my-3" style="width: 18rem;">
   		  			  		  	<img src="./images/coming-soon.png" class="card-img-top" alt="">
   		  			  		  	<div class="card-body">
   		  				  		    <h5 class="card-title">Coming Soon</h5>
@@ -246,8 +247,8 @@
 			  	<!-- Commissioned Projects -->
 			  	<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
   				  	<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-  				  		<div class="p-3 d-md-flex justify-content-around d-flex justify-content-around align-items-center">
-  				  			<div class="card" style="width: 18rem;">
+  				  		<div class="row p-3 d-md-flex justify-content-around d-flex justify-content-around align-items-center">
+  				  			<div class="card my-3" style="width: 18rem;">
   					  		  	<img src="./images/coming-soon.png" class="card-img-top" alt="">
   					  		  	<div class="card-body">
   					  		    	<h5 class="card-title">Coming Soon</h5>
@@ -255,7 +256,7 @@
   					  		    	<a href="#" class="btn">View Project</a>
   					  		  	</div>
   					  		 </div>
-  		  			  		<div class="card" style="width: 18rem;">
+  		  			  		<div class="card my-3" style="width: 18rem;">
   		  			  		  	<img src="./images/coming-soon.png" class="card-img-top" alt="">
   		  			  		  	<div class="card-body">
   		  			  		    	<h5 class="card-title">Coming Soon</h5>
@@ -263,7 +264,7 @@
   		  			  		    	<a href="#" class="btn">View Project</a>
   		  			  		  	</div>
   		  			  		</div>
-  		  			  		<div class="card" style="width: 18rem;">
+  		  			  		<div class="card my-3" style="width: 18rem;">
   		  			  		  	<img src="./images/coming-soon.png" class="card-img-top" alt="">
   		  			  		  	<div class="card-body">
   		  				  		    <h5 class="card-title">Coming Soon</h5>
@@ -326,7 +327,7 @@
 	        Message Successfully Sent
 	      </div>
 	      <div class="modal-footer">
-	        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
+	        <button type="button" class="btn" data-dismiss="modal">Close</button> 
 	      </div>
 	    </div>
 	  </div>
