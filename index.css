@@ -1,0 +1,252 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.main-nav {
+	background-color: #453750;
+}
+
+.nav-link {
+	margin-right: 8px;
+}
+
+.main-nav-link:hover {
+	background-color: #6E5B7B !important;
+	border-radius: 20px;
+}
+
+body {
+  background: url(images/rose-petals.svg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main-text {
+	color: white;
+}
+
+.self-pic	{
+	border: 10px solid #453750;
+    border-radius: 50%;
+    box-shadow: 5px 10px #888888;
+}
+
+#my-logo {
+	width: 60px;
+	margin-right: 15px;
+}
+
+.jumbotron-home {
+	background-color: #453750;
+	padding: 25px;
+  border-radius: 85px;
+  text-align: center;
+  box-shadow: 5px 10px #888888;
+  margin-top: 25px;
+}
+
+.container-landing{
+	display: flex;
+  justify-content: center
+}
+
+.overview-carousel {
+	padding: 20px;
+}
+.overview {
+	text-align: center;
+  background-color: rgba(69, 55, 80, 0.8);
+  border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+  padding: 25px;
+}
+.project-overview {
+	text-align: center;
+	color: #453750;
+	border: 5px solid #E8F8C1;
+	background-color: rgba(232, 248, 193, 1.0);
+	border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.container-about-me {
+	background-color: rgba(249, 181, 172, 0.5);
+	border-radius: 20px;
+	border: 5px solid #453750;
+	box-shadow: 5px 10px #888888;
+	text-align: center;
+}
+
+.text-about-me {
+		padding: 0 40px;
+		text-align: center;
+		color: #453750;
+		border: 5px solid #453750;
+		background-color: rgba(69, 55, 80, 0.5);
+		border-radius: 20px;
+	  display: inline-block;
+	  margin-bottom: 20px;
+}
+
+.skills	{
+		text-align: center;
+		color: #453750;
+		border: 5px solid #453750;
+		background-color: rgba(69, 55, 80, 0.5);
+		border-radius: 20px;
+	  display: inline-block;
+	  padding-left: 50px;
+	  padding-right: 50px;
+}
+
+
+.progress-container {
+	display: flex;
+	align-items: center;
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+.progress {
+	flex: 1;
+}
+
+.progress-label {
+	width: 12%;
+}
+
+.fa-gitlab.fa-2xl {
+	color: #fc6d27;
+}
+
+.gitlab-progress-bar {
+	background-color: #e2432a;
+}
+
+.fa-html5 {
+	color: #f06529;
+}
+
+.html-progress-bar {
+	background-color: #e34c26;
+}
+
+.fa-css3-alt {
+	color: #2965f1;
+}
+
+.css-progress-bar {
+	background-color: #264de4;
+}
+
+.fa-bootstrap {
+	color: #563d7c;
+}
+
+.bootstrap-progress-bar {
+	background-color: #563d7c;
+}
+
+.js-container {
+	width: 28px;
+	background-color: #323330;
+}
+.fa-square-js {
+	color: #f0db4f;
+}
+
+.js-progress-bar {
+	background-color: #f0db4f;
+}
+
+.p-about-me {
+	color: white;
+}
+
+.container-projects {
+	background-color: #453750;
+	border-radius: 20px;
+  box-shadow: 5px 10px #888888;
+}
+
+.cards-bg {
+	text-align: center;
+  background-color: rgba(232, 248, 193, 1.0);
+  border-radius: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 5px 10px #888888;
+  padding: 25px;
+}
+
+.nav-tabs {
+	background-color: rgba(232, 248, 193, 1.0);
+	box-shadow: 5px 10px rgb(188,202,154);
+	justify-content:  space-evenly;
+}
+
+.project-header{
+	text-align: center;
+}
+
+.project-title {
+	padding: 0 40px;
+	text-align: center;
+	color: #453750;
+	border: 5px solid #E8F8C1;
+	background-color: rgba(232, 248, 193, 1.0);
+	border-radius: 20px;
+  display: inline-block;
+}
+
+.bg-contact {
+	text-align: center;
+	background-color: rgba(249, 181, 172, 0.5);
+	border-radius: 20px;
+	border: 5px solid #453750;
+	box-shadow: 5px 10px #888888;
+}
+
+.contact-text {
+		padding: 0 40px;
+		text-align: center;
+		color: #453750;
+		border: 5px solid #453750;
+		background-color: rgba(69, 55, 80, 0.5);
+		border-radius: 20px;
+	  display: inline-block;
+	  margin-bottom: 20px;
+}
+
+button.active {
+	background-color: rgb(209, 231, 155) !important;
+}
+
+button.nav-link {
+	background-color: rgba(232, 248, 193, 1.0);
+}
+
+.footer, a, .btn-submit-modal{
+	background-color: #453750 !important;
+}
+
+.footer-icons a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a.btn , .btn-submit-modal {
+	color:  #fff;
+}
+
+a.btn:hover , .btn-submit-modal:hover {
+	color:  #b9a5c1;
+}
+
+.bg-contact-outer {
+	background-color: #453750
+}
