@@ -25,6 +25,7 @@ body {
 
 .main-text {
 	color: white;
+	text-align: justify;
 }
 
 .self-pic	{
@@ -271,7 +272,7 @@ a.btn:hover , .btn-submit-modal:hover {
 	background-color: #453750;
 }
 
-.btn-submit-modal , .card a{
+.btn-submit-modal , .card a, .btn-coffee, .btn-close {
 	box-shadow: none !important;
 }
 
@@ -332,4 +333,21 @@ a.btn:hover , .btn-submit-modal:hover {
 
 .spacer {
 	height: 6rem;
+}
+
+.btn-coffee {
+	padding: 0 40px;
+	text-align: center;
+	color: #453750;
+	border: 5px solid #8B95C9;
+	background-color: #8B95C9;
+	border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #fff;
+
+}
+
+.btn-send {
+	background-color: #1a181bb5;
 }

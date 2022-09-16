@@ -26,7 +26,7 @@
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="m-5">
-	<!-- Navbar Start -->
+	<!-- Navbar -->
 	<section>
 		<nav class="main-nav fixed-top navbar navbar-expand-lg navbar-dark">
 		 	<a class="navbar-brand" href="index.html"><img id="my-logo" src="images/favicon.png" alt=""><strong>Aubrey Antonio</strong></a>
@@ -99,10 +99,10 @@
 		</div>	
 	</section>
 	<!-- Landing Page End -->
-	<!-- About Me Section -->
+	<!-- About Me -->
 	<div id="about" class="spacer"></div>
 	<section data-aos="zoom-in" data-aos-duration="1000"class="container-about-me container-fluid p-3 min-vh-75">
-		<h3 class="text-about-me mx-auto"><strong>Me In A Nutshell</strong></h3>
+		<h3 class="text-about-me mx-auto"><strong>Me in a nutshell</strong></h3>
 		<div class="row">
 			<div class="col-lg-8 col-md-6 order-2 order-md-1">
 				<h3 class="skills mx-auto"><strong>Proficiency Levels</strong></h3>
@@ -163,24 +163,24 @@
 			</div>
 		</div>
 	</section>
-	<!-- About Me Section End -->
+	<!-- About Me End -->
 
 	<!-- Projects -->
 	<div id="project" class="spacer"></div>
 	<section data-aos="zoom-in" data-aos-duration="1000" class="container-projects container-fluid p-3 min-vh-50">
 		<div>
 			<div class="project-header">
-				<h3 class="project-title"><strong>My Works</strong></h3>
+				<h3 class="project-title"><strong>Projects</strong></h3>
 			</div>
 			<ul class="nav nav-tabs " id="myTab" role="tablist">
 			  	<li class="nav-item" role="presentation">
-			    	<button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Mini Projects</button>
+			    	<button class="nav-link active" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Personal</button>
 			  	</li>
 			  	<li class="nav-item" role="presentation">
-			    	<button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Major Projects</button>
+			    	<button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Work</button>
 			  	</li>
 			  	<li class="nav-item" role="presentation">
-			    	<button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Commissioned Projects</button>
+			    	<button class="nav-link" id="contact-tab" data-toggle="tab" data-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Commissioned</button>
 			  	</li>
 			</ul>
 			<div class="tab-content cards-bg" id="myTabContent">
@@ -310,7 +310,7 @@
 				    </select>
 				    <label for="inputMessage">Message</label>
 				    <textarea class="form-control" id="inputMessage" placeholder="Type your message here"></textarea>	
-				    <button data-toggle="modal" data-target="#submitModal" type="submit" class="btn mt-3 btn-submit-modal">Send</button>
+				    <button data-toggle="modal" data-target="#submitModal" type="submit" class="btn mt-3 btn-submit-modal btn-send">Send</button>
 				</div>
 			</div>
 			<div class="col-12 col-md-6 order-2 mt-4 mt-lg-0">
@@ -332,46 +332,68 @@
 						<i class="socials fa-solid fa-envelope"></i>
 					</a>
 				</div>
-				<h3 class="address-text mt-4"><strong>Find me here</strong></h3>
+				<h3 class="address-text mt-4"><strong>Find me here</strong></i></h3>
 				<div class="container mt-3">
 					<iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.7311684783535!2d121.03125941478471!3d14.557359882037748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9b8d33b2c6d%3A0xb0c2f766338a92bd!2sZuitt%20Makati!5e0!3m2!1sen!2sph!4v1663253380618!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
+
+				<!-- Buy me coffeel -->
+				<button type="button" class="mt-4 btn btn-coffee" data-toggle="modal" data-target="#gcash-modal">
+				  <strong>Buy me a coffee</strong> <i class="fa-solid fa-mug-hot"></i>
+				</button>
 			</div>
 		</div>
 	</section>
 	<!-- Contact End -->
 
-	<!-- Modal Start-->
+	<!-- Modal - Contact me-->
 	<div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	  <div class="modal-dialog">
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting!</h5>
-	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-	          <span aria-hidden="true">&times;</span>
-	        </button>
-	      </div>
-	      <div class="modal-body">
-	        Message Successfully Sent
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn" data-dismiss="modal">Close</button> 
-	      </div>
+	  	<div class="modal-dialog">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title" id="exampleModalLabel">Thank you for getting in touch!</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          	<span aria-hidden="true">&times;</span>
+		        </button>
+	      	</div>
+	      	<div class="modal-body">
+		        I have received your message and I'll get back to you as soon as I can <i class="fa-regular fa-face-smile-wink"></i>
+	      	</div>
+	      	<div class="modal-footer">
+		        <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button> 
+	      	</div>
 	    </div>
 	  </div>
 	</div>
-	<!-- Modal End -->		
+	<!-- Modal - Contact me End -->
+
+	<!-- Coffee Modal -->
+	<div class="modal fade" id="gcash-modal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	  	<div class="modal-dialog modal-dialog-centered">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title" id="staticBackdropLabel">
+		        		Send your cup of love by scanning this QR code <i class="fa-regular fa-heart"></i>
+		        	</h5> 
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			          	<span aria-hidden="true">&times;</span>
+			        </button>
+		      	</div>
+		      	<div class="modal-body">
+		        	<img class="img-fluid" src="./images/gcash.jpg">
+		      	</div>
+	  		</div>
+		</div>
+	</div>
+	<!-- Coffee Modal -->
 
 	<!-- Footer -->
 	<footer>
 		<div class="footer fixed-bottom text-light p-1 d-flex justify-content-center">
-            <span>Privacy Policy</span>
-            <span>|</span>
             <span>&copy; 2022 aubreyfaithantonio. All Rights Reserved</span>
 		</div>
 	</footer>
 	<!-- Footer End -->
-	</div>
 
 	<!-- Bootstrap JavaScript -->
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
