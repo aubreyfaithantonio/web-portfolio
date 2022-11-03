@@ -157,8 +157,8 @@ h4 {
 }
 
 .bootstrap-progress-bar {
-	background-color: #9fa6c9;
-	width: 70%;
+	background-color: #8B95C9;
+	width: 80%;
 }
 
 .fa-square-js {
@@ -166,7 +166,8 @@ h4 {
 }
 
 .js-progress-bar {
-	width: 0;
+	background-color: #9fa6c9;
+	width: 70%;
 }
 
 .p-about-me {
